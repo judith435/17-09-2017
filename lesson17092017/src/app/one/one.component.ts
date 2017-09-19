@@ -9,10 +9,12 @@ export class OneComponent implements OnInit {
     @Input() movieName;
     likesCounter;
     placeholder;
+    texti;
 
   constructor() { 
     this.likesCounter = 0;
     this.placeholder = 'zxc';
+    this.texti = Date();
   }
 
   ngOnInit() {
